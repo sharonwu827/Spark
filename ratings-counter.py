@@ -1,6 +1,7 @@
 from pyspark import SparkConf, SparkContext
 import collections
 
+# running on the local batch only
 conf = SparkConf().setMaster("local").setAppName("RatingsHistogram")
 sc = SparkContext(conf = conf)
 
