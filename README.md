@@ -16,3 +16,7 @@ Stream Processing is the act of continuously incorporating new data to compute a
 
 ### Batch Processing
 Batch processing is where the processing happens of blocks of data that have already been stored over a period of time.
+
+Under the batch processing model, a set of data is collected over time, then fed into an analytics system. In other words, you collect a batch of information, then send it in for processing.
+Under the streaming model, data is fed into analytics tools piece-by-piece. The processing is usually done in real time.
+
