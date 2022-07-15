@@ -21,6 +21,9 @@ A distributed event streaming platform that lets you read, write, store, and pro
 - Kafka Topics: like a table in a database. Basically, Kafka maintains feeds of messages in categories. And, messages are stored as well as published in a category/feed name that is what we call a topic. In addition, all Kafka messages are generally organized into Kafka topics.
 - Kafka Producers: You cannot query topics, instead use Kakfa producers to send data and kafka consumers to read the data. 
 - Kafka Partitions: Topics are split in partitions
+- 
+![img_1.png](img_1.png)
+
 
 ### Stream Processing
 Stream processing is the practice of taking action on a series of data at the time the data is created. Historically, data practitioners used “real-time processing” to talk generally about data that was processed as frequently as necessary for a particular use case. Stream processing often entails multiple tasks on the incoming series of data (the “data stream”), which can be performed serially, in parallel, or both. This workflow is referred to as a stream processing pipeline, which includes the generation of the stream data, the processing of the data, and the delivery of the data to a final location.
